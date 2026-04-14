@@ -31,9 +31,9 @@ btn.addEventListener("click", function () {
 
   if (list.classList.contains("brands__list--expanded")) {
     btnText.textContent = "Скрыть";
-    btnImg.style.transform = "rotate(0deg)";
+    btnImg.style.transform = "rotate(180deg)";
   } else {
     btnText.textContent = "Показать все";
-    btnImg.style.transform = "rotate(180deg)";
+    btnImg.style.transform = "rotate(0deg)";
   }
 });
